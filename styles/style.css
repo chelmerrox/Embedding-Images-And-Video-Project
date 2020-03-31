@@ -1,0 +1,138 @@
+.main-containers {
+    display: grid;
+    grid-template-columns: 4fr 1.5fr;
+    grid-template-rows: 1fr 7rem;
+}
+
+#display {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: -5rem;
+}
+
+#h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#enclose {
+    border: 1px solid grey;
+    box-sizing: content-box;
+    margin-right: 32.9rem;
+}
+
+.youtuber-info {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#subscribers {
+    margin-left: 0.3rem;
+    margin-top: 0;
+
+}
+
+#views {
+    margin-left: 33.5rem;
+    padding-top: 2rem;
+    border bottom: 3px solid blue;
+}
+
+#exp-number {
+    margin-right: 6.1rem;
+}
+
+.like-dislike-btn > span i {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: grey;
+    display: inline;
+
+
+
+}
+
+.like-dislike-axis {
+    margin-left: 0.1rem;
+    padding-bottom: 0.7rem;
+}
+
+.like-dislike-btn: active {
+    border: none;
+    color: blue;
+    background-color: rgb(255, 255, 255);
+}
+
+.number-of-comments-section {
+
+    margin-left: -0.4rem;
+}
+
+#loading-comments > div {
+    /*    border: 1px solid red;*/
+    margin-left: 1rem;
+    display: flex;
+    flex-shrink: 5;
+}
+
+section {
+    margin: 50px 5px 10px 140px;
+}
+
+h3 {
+    color: black;
+}
+
+h4 {
+    color: rgb(110, 107, 107);
+}
+
+
+#like-and-share-buttons {
+    margin-left: 200px;
+}
+
+
+#subscribe {
+    font-size: 0.8rem;
+    background-color: rgb(243, 14, 14);
+    border: 1px solid rgb(243, 14, 14);
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 0.2rem;
+}
+
+button ~ span {
+    border: 1.1px solid grey;
+    opacity: 0.7;
+    padding: 0.5rem 0.7rem 0.62rem 0.5rem;
+    margin-top: -1.5rem;
+}
+
+.expression {
+    width: 50rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+
+.content-info {
+    color: black;
+    display: block;
+    text-align: match-parent;
+}
+
+
+#show-more {
+    color: grey;
+}
+
+.number-of-comments-section {
+    display: inline-block;
+}

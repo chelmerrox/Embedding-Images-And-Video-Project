@@ -43,23 +43,23 @@
         <!--Main part with the 1st container: video, comments section etc
                 and 2nd container: recommended videos -->
         <main class="main-containers">
-            <section id="display">
+            <div id="display">
                 <!-----------------------------------------------------------------------------------------------below language screen-->
-                <section id="transform1">
-                <iframe width="800" height="600" src="https://www.youtube.com/embed/V74l_zS1x8E"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <div id="enclose">
+                <section>
+               <iframe width="900" height="500" src="https://www.youtube.com/embed/zYhBJoBUSYA"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div id="video-info-container">
                 <h3 id="h3">Contributing to Open Source Part 1: The Easy Way</h3>
 
 
 
-                <span class="youtuber-info expression-youtuber-info">
+                <span id="youtuber-info">
                 
                 
                     <a href="">
                         <img src="images/youtuber-avatar.PNG" alt="Youtuber's avatar" width="40" height="40" />
                     </a>
-                    <span>The Odin Project <div> <button type="button" id="subscribe"><i class="material-icons"></i>Subscribe</button><span>799</span></div></span>
-                    <div id="views">50,016 views</div>
+                    <span>The Odin Project <div> <button type="button" id="subscribe"><i class="material-icons "></i>Subscribe</button><span id="subscribers">799</span></div> </span>
+                   <div id="views">50,016 views</div> 
                 </span>
     </div>
 
@@ -69,7 +69,7 @@
 
 
                 <!---------------------------------------------------------------------------------------------------------------------------------------->
-                <div class="expression expression-youtuber-info">
+                <div class="expression ">
                     <div>
                         <button class="save & plus" id="a">
                             <img src="images/add-to-button.PNG" alt="Add to button" width="30" height="25">
@@ -127,7 +127,7 @@
                     </div>
                 </section>
                 </section>
-            </section>
+            </div>
 
             <!--
             2nd container-----------------------------------------------------------------------------------------------------------------------------------------
@@ -136,10 +136,10 @@
 
 
             <!--Sidebar with recommended videos-->
-            <aside class="main-containers1">
+            <aside class="side-containers">
                 <!--Autoplay button-->
 
-                <p style="font-size:1.5rem;" id="main-containers1-p">Upload</p>
+                <p style="font-size:1.5rem;" id="upload-side-container-text">Upload</p>
                 <img src="images/autoplay-button.PNG" alt="Autoplay image" width="250" height="40" id="side-header" />
 
 

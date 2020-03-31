@@ -81,7 +81,7 @@ a {
 #sign-in {
     border: 2px solid rgb(12, 124, 189);
     background-color: rgb(12, 124, 189);
-    /* padding: 6px 14px;*/
+    
     margin-top: -0.2rem;
 
     color: white;
@@ -91,6 +91,35 @@ a {
     height: 1.5rem;
 
 }
+
+
+.main-containers1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2rem 10rem;
+    grid-auto-rows: 10rem;
+    grid-gap: 1rem;
+    width: auto;
+}
+
+#main-containers1-p {
+    margin-left: 5rem;
+
+    display: flex;
+    align-self: center;
+}
+
+.textadjust1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    opacity: 0.4;
+}
+
+#side-header {
+
+    object-fit: cover;
+
 
 .main-containers {
     display: grid;
@@ -165,7 +194,7 @@ a {
 }
 
 #loading-comments > div {
-    /*    border: 1px solid red;*/
+  
     margin-left: 1rem;
     display: flex;
     flex-shrink: 5;
@@ -230,6 +259,120 @@ button ~ span {
 .number-of-comments-section {
     display: inline-block;
 }
+ 
+footer {
+    background-color: white;
+    padding: 20px;
+   
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid rgb(236, 234, 234);
+}
+
+.footer-buttons {
+    display: inline-block;
+    border: 1px solid grey;
+    padding: 3px;
+    background-color: lightgrey;
+}
+
+select {
+    background-color: lightgrey;
+    padding-right: 5px;
+}
+
+
+.footer-forms {
+    border: none;
+}
+
+
+
+
+/*.bottom-links-1*/
+#footer-link + a {
+    color: black;
+}
+
+.bottom-links-2 {
+    color: grey;
+    font-size: 10px;
+}
+
+#choose-language-image {
+    object-fit: cover;
+}
+
+
+
+
+ #subscribe {
+    margin-left: -7.7rem;
+    margin-top: 0.5rem;
+    padding-top: 0.2rem;
+}
+
+ #youtube2 {
+    margin-left: 1rem;
+}
+
+#youtube3 {
+    margin-left: -1rem;
+}
+
+
+#youtube-logo {
+    align-self: center;
+}
+
+
+#footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-top: 1px solid lightgrey;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+.footer1 {
+    display: flex;
+    flex-direction: column;
+   
+    align-items: stretch;
+}
+
+#footer-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 1.8rem;
+   
+    padding-right: 75rem;
+    padding-left: -10rem;
+   
+}
+
+#footer-links {
+
+    display: block;
+}
+
+.bottom-links-1 {
+    display: inline block;
+    margin-left: 0.5rem;
+
+}
+
+.bottom-links-2 {
+    display: inline;
+    margin-left: 0.5rem;
+
+}
+
 
 * http: //meyerweb.com/eric/tools/css/reset/ 
 
@@ -272,5 +415,6 @@ section {
 
 body {
     line-height: 1;
+
 }
 

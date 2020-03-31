@@ -160,7 +160,7 @@ a {
 #views {
     margin-left: 33.5rem;
     padding-top: 2rem;
-    border bottom: 3px solid blue;
+    border-bottom: 3px solid blue;
 }
 
 #exp-number {
@@ -182,7 +182,7 @@ a {
     padding-bottom: 0.7rem;
 }
 
-.like-dislike-btn: active {
+.like-dislike-btn:active {
     border: none;
     color: blue;
     background-color: rgb(255, 255, 255);
@@ -374,7 +374,7 @@ select {
 }
 
 
-* http: //meyerweb.com/eric/tools/css/reset/ 
+/* http: //meyerweb.com/eric/tools/css/reset/ 
 
 v2.0 | 20110126 License: none (public domain) */ html,
 body,
